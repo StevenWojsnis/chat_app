@@ -5,9 +5,7 @@ class Users {
 
   addUser (id, name, room) {
     var user = {id, name, room};
-    console.log(this.users);
     this.users.push(user);
-    console.log(this.users)
     return user;
   }
 
