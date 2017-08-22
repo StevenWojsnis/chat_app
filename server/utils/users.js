@@ -1,10 +1,3 @@
-
-
-//addUser(id,name,room)
-//removeUser(id)
-//getUser(id)
-//getUserList(room)
-
 class Users {
   constructor () {
     this.users = [];
@@ -31,8 +24,6 @@ class Users {
   getUser (id) {
     var userToRetrieve = this.users.filter((user) => user.id === id);
     return userToRetrieve[0];
-
-    // return this.users.filter((user) => user.id === id)[0]
   }
 
   getUserList (room) {
